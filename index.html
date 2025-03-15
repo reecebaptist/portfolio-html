@@ -7,6 +7,7 @@
     <title>Reece's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="assets/icon.ico" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -17,6 +18,14 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li>
+            EN
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+            日語
+          </li>
         </ul>
       </div>
     </nav>
@@ -100,19 +109,24 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Tech. Bachelors Degree<br />
-              Computer Science and Engineering
+              <p>
+                B.Tech. Bachelors Degree<br />
+                Computer Science and Engineering
               </p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              As a Software Engineer with three years of dedicated experience, I bring a solid foundation in computer science, 
-              honed through my BTech from Vellore Institute of Technology. I am a driven and results-oriented professional, 
-              evidenced by multiple 'Bravo' awards and an Associate of the Month recognition. I am also highly collaborative, 
-              detail-oriented, and possess strong problem-solving skills. My commitment to excellence and continuous learning 
-              fuels my passion for creating innovative and efficient software solutions. I am eager to contribute my skills and 
-              experience to a dynamic team.
+              As a Software Engineer with three years of dedicated experience, I
+              bring a solid foundation in computer science, honed through my
+              BTech from Vellore Institute of Technology. I am a driven and
+              results-oriented professional, evidenced by multiple 'Bravo'
+              awards and an Associate of the Month recognition. I am also highly
+              collaborative, detail-oriented, and possess strong problem-solving
+              skills. My commitment to excellence and continuous learning fuels
+              my passion for creating innovative and efficient software
+              solutions. I am eager to contribute my skills and experience to a
+              dynamic team.
             </p>
           </div>
         </div>
@@ -267,13 +281,19 @@
             <div class="article-container">
               <img
                 src="./assets/project-1.png"
-                alt="Project 1"
+                alt="Mainframe to Cloud (MF2C)"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">
+              Mainframe to Cloud (MF2C)
+            </h2>
             <div class="btn-container">
-              <button
+              <p>
+                Developed using Apache Spark and Scala and deployed using Google
+                Cloud Platform Clusters
+              </p>
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
@@ -284,20 +304,22 @@
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
                 src="./assets/project-2.png"
-                alt="Project 2"
+                alt="Warehouse Application"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">
+              Warehouse Application
+            </h2>
             <div class="btn-container">
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
@@ -308,7 +330,8 @@
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
+              <p>Developed using React Native and TypeScript</p>
             </div>
           </div>
           <div class="details-container color-container">
@@ -319,9 +342,11 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">
+              SAP ERP Testing Suite
+            </h2>
             <div class="btn-container">
-              <button
+              <!-- <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
@@ -332,7 +357,9 @@
                 onclick="location.href='https://github.com/'"
               >
                 Live Demo
-              </button>
+              </button> -->
+              Development of a testing suite for SAP ERP Modules using
+              Playwright and TypeScript
             </div>
           </div>
         </div>
@@ -354,7 +381,9 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">reece.baptist@gmail.com</a></p>
+          <p>
+            <a href="mailto:examplemail@gmail.com">reece.baptist@gmail.com</a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -362,7 +391,9 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/reece-baptist/">LinkedIn</a></p>
+          <p>
+            <a href="https://www.linkedin.com/in/reece-baptist/">LinkedIn</a>
+          </p>
         </div>
       </div>
     </section>
