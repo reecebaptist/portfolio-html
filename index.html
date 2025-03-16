@@ -11,17 +11,49 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Reece Dsouza</div>
+      <div class="logo">
+        <p
+          class="translatable"
+          data-en="Reece Dsouza"
+          data-ja="ディスーザ リース"
+        >
+          Reece Dsouza
+        </p>
+      </div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#about">
+              <p class="translatable" data-en="About" data-ja="自己紹介">
+                About
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#experience">
+              <p class="translatable" data-en="Experience" data-ja="経験">
+                Experience
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              <p class="translatable" data-en="Projects" data-ja="プロジェクト">
+                Projects
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <p class="translatable" data-en="Contact" data-ja="連絡">
+                Contact
+              </p>
+            </a>
+          </li>
           <li>
             EN
             <label class="switch">
-              <input type="checkbox" />
+              <input type="checkbox" id="languageToggle" />
               <span class="slider round"></span>
             </label>
             日語
@@ -30,7 +62,15 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Reece Dsouza</div>
+      <div class="logo">
+        <p
+          class="translatable"
+          data-en="Reece Dsouza"
+          data-ja="ディスーザ リース"
+        >
+          Reece Dsouza
+        </p>
+      </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,10 +78,46 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li>
+            <a href="#about" onclick="toggleMenu()">
+              <p class="translatable" data-en="About" data-ja="自己紹介">
+                About
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#experience" onclick="toggleMenu()">
+              <p class="translatable" data-en="Experience" data-ja="経験">
+                Experience
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" onclick="toggleMenu()">
+              <p class="translatable" data-en="Projects" data-ja="プロジェクト">
+                Projects
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" onclick="toggleMenu()">
+              <p class="translatable" data-en="Contact" data-ja="連絡">
+                Contact
+              </p>
+            </a>
+          </li>
+          <li>
+            EN
+            <label class="switch">
+              <input
+                type="checkbox"
+                onclick="toggleMenu()"
+                id="languageToggle"
+              />
+              <span class="slider round"></span>
+            </label>
+            日語
+          </li>
         </div>
       </div>
     </nav>
@@ -50,17 +126,43 @@
         <img src="./assets/profile-pic.png" alt="Reece profile picture" />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Reece Dsouza</h1>
-        <p class="section__text__p2">Software Developer</p>
+        <p
+          class="section__text__p1 translatable"
+          data-en="Hello, I'm"
+          data-ja="こんにちは、私は"
+        >
+          Hello, I'm
+        </p>
+        <h1
+          class="title translatable"
+          data-en="Reece Dsouza"
+          data-ja="ディスーザ リース"
+        >
+          Reece Dsouza
+        </h1>
+        <p class="section__text__p1 translatable" data-en="" data-ja="です"></p>
+        <p
+          class="section__text__p2 translatable"
+          data-en="Software Developer"
+          data-ja="ソフトウェアエンジニア"
+        >
+          Software Developer
+        </p>
         <div class="btn-container">
           <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            class="btn btn-color-2 translatable"
+            onclick="window.open('./assets/Resume_ATS.pdf')"
+            data-en="Download CV"
+            data-ja="履歴書をダウンロード"
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
+          <button
+            class="btn btn-color-1 translatable"
+            onclick="location.href='#contact'"
+            data-en="Contact Info"
+            data-ja="連絡"
+          >
             Contact Info
           </button>
         </div>
@@ -81,8 +183,16 @@
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <p
+        class="section__text__p1 translatable"
+        data-en="Get To Know More"
+        data-ja=""
+      >
+        Get To Know More
+      </p>
+      <h1 class="title translatable" data-en="About Me" data-ja="自己紹介">
+        About Me
+      </h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
@@ -99,8 +209,19 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>3 years <br />Software Developer</p>
+              <h3 class="translatable" data-en="Experience" data-ja="経験">
+                Experience
+              </h3>
+              <p class="translatable" data-en="3 years" data-ja="3年">
+                3 years
+              </p>
+              <p
+                class="translatable"
+                data-en="Software Developer"
+                data-ja="ソフトウェアエンジニア"
+              >
+                Software Developer
+              </p>
             </div>
             <div class="details-container">
               <img
@@ -108,15 +229,40 @@
                 alt="Education icon"
                 class="icon"
               />
-              <h3>Education</h3>
-              <p>
-                B.Tech. Bachelors Degree<br />
+              <h3 class="translatable" data-en="Education" data-ja="学歴">
+                Education
+              </h3>
+              <p
+                class="translatable"
+                data-en="B.Tech. Bachelor's Degree"
+                data-ja="B.Tech 学士号"
+              >
+                B.Tech Bachelor's Degree
+              </p>
+              <p
+                class="translatable"
+                data-en="Computer Science and Engineering"
+                data-ja="コンピュータサイエンス工学 "
+              >
                 Computer Science and Engineering
               </p>
             </div>
           </div>
           <div class="text-container">
-            <p>
+            <p
+              class="translatable"
+              data-en="As a Software Engineer with three years of dedicated experience, I
+              bring a solid foundation in computer science, honed through my
+              BTech from Vellore Institute of Technology. I am a driven and
+              results-oriented professional, evidenced by multiple 'Bravo'
+              awards and an Associate of the Month recognition. I am also highly
+              collaborative, detail-oriented, and possess strong problem-solving
+              skills. My commitment to excellence and continuous learning fuels
+              my passion for creating innovative and efficient software
+              solutions. I am eager to contribute my skills and experience to a
+              dynamic team."
+              data-ja="3年間のソフトウェアエンジニアとしての経験を持つ私は、ヴェロール工科大学のBTechで培ったコンピュータサイエンスの確固たる基礎を持っています。私は、複数の「Bravo」賞や月間最優秀アソシエイトの表彰を受けたことからもわかるように、意欲的で結果重視のプロフェッショナルです。また、協調性が高く、細部にまで気を配り、強力な問題解決能力を持っています。卓越性と継続的な学習へのコミットメントは、革新的で効率的なソフトウェアソリューションを作成するという私の情熱を掻き立てます。ダイナミックなチームに私のスキルと経験を貢献することを熱望しています。"
+            >
               As a Software Engineer with three years of dedicated experience, I
               bring a solid foundation in computer science, honed through my
               BTech from Vellore Institute of Technology. I am a driven and
@@ -139,12 +285,22 @@
       />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <p class="section__text__p1 translatable" data-en="Explore My" data-ja="">
+        Explore My
+      </p>
+      <h1 class="title translatable" data-en="Experience" data-ja="経験">
+        Experience
+      </h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Data Engineer</h2>
+            <h2
+              class="experience-sub-title translatable"
+              data-en="Data Engineer"
+              data-ja="データエンジニア"
+            >
+              Data Engineer
+            </h2>
             <div class="article-container">
               <article>
                 <img
@@ -154,7 +310,9 @@
                 />
                 <div>
                   <h3>Spark</h3>
-                  <p>Experienced</p>
+                  <p class="translatable" data-en="Experienced" data-ja="熟練">
+                    Experienced
+                  </p>
                 </div>
               </article>
               <article>
@@ -165,7 +323,9 @@
                 />
                 <div>
                   <h3>Scala</h3>
-                  <p>Experienced</p>
+                  <p class="translatable" data-en="Experienced" data-ja="熟練">
+                    Experienced
+                  </p>
                 </div>
               </article>
               <article>
@@ -176,7 +336,9 @@
                 />
                 <div>
                   <h3>Python</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
                 </div>
               </article>
               <article>
@@ -187,7 +349,9 @@
                 />
                 <div>
                   <h3>GCP</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
                 </div>
               </article>
               <article>
@@ -198,7 +362,9 @@
                 />
                 <div>
                   <h3>BigQuery</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
                 </div>
               </article>
               <article>
@@ -209,13 +375,21 @@
                 />
                 <div>
                   <h3>Excel</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Open Stack Development</h2>
+            <h2
+              class="experience-sub-title translatable"
+              data-en="Full Stack Development"
+              data-ja="フルスタック開発"
+            >
+              Full Stack Development
+            </h2>
             <div class="article-container">
               <article>
                 <img
@@ -225,7 +399,9 @@
                 />
                 <div>
                   <h3>React</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
                 </div>
               </article>
               <article>
@@ -236,7 +412,9 @@
                 />
                 <div>
                   <h3>TypeScript</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
                 </div>
               </article>
               <article>
@@ -247,7 +425,35 @@
                 />
                 <div>
                   <h3>React Native</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Playwright</h3>
+                  <p class="translatable" data-en="Basic" data-ja="基礎">
+                    Basic
+                  </p>
                 </div>
               </article>
               <article>
@@ -258,7 +464,9 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p class="translatable" data-en="Intermediate" data-ja="中級">
+                    Intermediate
+                  </p>
                 </div>
               </article>
             </div>
@@ -273,8 +481,16 @@
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <p
+        class="section__text__p1 translatable"
+        data-en="Browse My Recent"
+        data-ja=""
+      >
+        Browse My Recent
+      </p>
+      <h1 class="title translatable" data-en="Projects" data-ja="プロジェクト">
+        Projects
+      </h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
@@ -289,7 +505,12 @@
               Mainframe to Cloud (MF2C)
             </h2>
             <div class="btn-container">
-              <p>
+              <p
+                class="translatable"
+                data-en="Developed using Apache Spark and Scala and deployed using Google
+              Cloud Platform Clusters"
+                data-ja="『Apache Spark』と『Scala』を使用して開発し、『Google Cloud Platform』のクラスターを使用してデプロイしました"
+              >
                 Developed using Apache Spark and Scala and deployed using Google
                 Cloud Platform Clusters
               </p>
@@ -331,7 +552,13 @@
               >
                 Live Demo
               </button> -->
-              <p>Developed using React Native and TypeScript</p>
+              <p
+                class="translatable"
+                data-en="Developed using React Native and TypeScript"
+                data-ja="React NativeとTypeScriptを使用して開発しました。"
+              >
+                Developed using React Native and TypeScript
+              </p>
             </div>
           </div>
           <div class="details-container color-container">
@@ -358,8 +585,15 @@
               >
                 Live Demo
               </button> -->
-              Development of a testing suite for SAP ERP Modules using
-              Playwright and TypeScript
+              <p
+                class="translatable"
+                data-en="Development of a testing suite for SAP ERP Modules using
+                Playwright and TypeScript"
+                data-ja="PlaywrightとTypeScriptを使用して、SAP ERPモジュールのテストスイートを開発しました。"
+              >
+                Development of a testing suite for SAP ERP Modules using
+                Playwright and TypeScript
+              </p>
             </div>
           </div>
         </div>
@@ -372,8 +606,16 @@
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
+      <p
+        class="section__text__p1 translatable"
+        data-en="Get in Touch"
+        data-ja="ご連絡ください"
+      >
+        Get in Touch
+      </p>
+      <h1 class="title translatable" data-en="Contact Me" data-ja="連絡">
+        Contact Me
+      </h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -401,10 +643,38 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="#about"
+                ><p class="translatable" data-en="About" data-ja="自己紹介">
+                  About
+                </p></a
+              >
+            </li>
+            <li>
+              <a href="#experience"
+                ><p class="translatable" data-en="Experience" data-ja="経験">
+                  Experience
+                </p></a
+              >
+            </li>
+            <li>
+              <a href="#projects"
+                ><p
+                  class="translatable"
+                  data-en="Projects"
+                  data-ja="プロジェクト"
+                >
+                  Projects
+                </p></a
+              >
+            </li>
+            <li>
+              <a href="#contact"
+                ><p class="translatable" data-en="Contact" data-ja="連絡">
+                  Contact
+                </p></a
+              >
+            </li>
           </ul>
         </div>
       </nav>
